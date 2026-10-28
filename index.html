@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanchan | BTech Student & Builder</title>
+<meta name="description" content="Portfolio of Kanchan, a BTech student building for the web.">
+<meta name="theme-color" content="#0B1020">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+<header class="nav">
+  <a class="logo" href="#top">Kanchan</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="hero-line">Hi, I'm</p>
+    <h1 class="hero-title"><span>Kanchan.</span></h1>
+    <p class="hero-line hero-sub">A BTech student who designs and builds things for the web.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects">See my work</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="section split">
+    <img class="reveal portrait" src="https://picsum.photos/seed/kanchan-about/640/760" alt="Placeholder portrait" loading="lazy" width="640" height="760">
+    <div class="reveal">
+      <h2>About me</h2>
+      <p>I'm a BTech student who likes turning ideas into clean, fast web pages. I'm learning web design and digital marketing alongside my degree, so I care about how a page looks and whether people actually find it.</p>
+      <p>I'm looking for internships and small projects where I can build, learn and ship.</p>
+      <ul class="stats">
+        <li><strong>3+</strong> projects built</li>
+        <li><strong>HTML · CSS · JS</strong> daily tools</li>
+        <li><strong>Open</strong> to internships</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="reveal">What I work with</h2>
+    <div class="skills">
+      <div class="skill reveal" data-c="violet"><h3>Web design</h3><p>Layouts, typography, colour systems and responsive pages.</p><div class="bar"><i style="--w:80%"></i></div></div>
+      <div class="skill reveal" data-c="cyan"><h3>Front-end code</h3><p>Semantic HTML, modern CSS and vanilla JavaScript.</p><div class="bar"><i style="--w:75%"></i></div></div>
+      <div class="skill reveal" data-c="pink"><h3>Digital marketing</h3><p>SEO basics, social content and simple analytics.</p><div class="bar"><i style="--w:65%"></i></div></div>
+      <div class="skill reveal" data-c="violet"><h3>Programming</h3><p>C, Python and problem solving from my BTech coursework.</p><div class="bar"><i style="--w:60%"></i></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="reveal">Selected projects</h2>
+    <div class="projects">
+      <article class="project reveal">
+        <img src="https://picsum.photos/seed/kanchan-p1/800/560" alt="Project preview" loading="lazy" width="800" height="560">
+        <div><h3>Campus event page</h3><p>A responsive landing page for a college event with a schedule and sign-up form.</p></div>
+      </article>
+      <article class="project reveal">
+        <img src="https://picsum.photos/seed/kanchan-p2/800/560" alt="Project preview" loading="lazy" width="800" height="560">
+        <div><h3>Local shop redesign</h3><p>A fresh look and clearer menu for a small business, built with plain HTML and CSS.</p></div>
+      </article>
+      <article class="project reveal">
+        <img src="https://picsum.photos/seed/kanchan-p3/800/560" alt="Project preview" loading="lazy" width="800" height="560">
+        <div><h3>Social media plan</h3><p>A four-week content calendar and reporting sheet for a student club.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2 class="reveal">Let's build something</h2>
+    <p class="reveal">Have an internship, project or idea? Send me a message.</p>
+    <a class="btn btn-primary reveal" href="mailto:hello@example.com">Email me</a>
+  </section>
+</main>
+
+<footer><p>© <span id="year"></span> Kanchan. Built with HTML, CSS, JS and Three.js.</p></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
